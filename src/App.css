@@ -2,9 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
+.portrait {
   height: 40vmin;
-  pointer-events: none;
+  border-radius: 50%;
+  border: solid 10px white;
+}
+
+.linkedin {
+  cursor: pointer;
+  height:5vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -21,6 +27,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family:monospace;
   color: white;
 }
 
